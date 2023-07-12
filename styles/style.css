@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner-container{
+    height: 900px;
+    background: url(../images/banner/banner1.png), lightgray -0.889px 0px / 100.111% 111.51% no-repeat; 
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    align-items: center;
+    text-align: right;
+}
+.banner-title{
+    color: #151414);
+    font-size: 65px;
+    font-weight: 700;
+    padding: 216px 230px 24px 800px;
+}
+.banner-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 32%;
+    margin: auto;
+    padding: 24px 23px 32px 876px ;
+}
+.button-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: chocolate;
+    padding: 20px 43px;
+   margin-right: 230px;
+}
+/* author section */
+.author-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.author-images{
+    margin-top: 139px;
+    margin-left: 200px;
+}
+.author-succes-story{
+    margin-right: 300px;
+}
+.succes-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 320px;
+    margin-left: ;
+    padding-bottom: 24px;
+}
+.succes-description{
+    color: #444343; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+.succes-point{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 8px;
+}
